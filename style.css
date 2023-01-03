@@ -1,0 +1,24 @@
+.rr1{
+    background-color: rgb(203, 210, 216);
+    text-align: center;
+}
+.rr2{
+    text-align: center;
+}
+#exampleRadios1{
+    margin-top: 10px;
+}
+.contt-1{
+    display: block;
+}
+.contt-2{
+    display: none;
+}
+@media screen and (max-width:1000px){
+    .contt-1{
+        display: none;
+    }
+    .contt-2{
+        display: block;
+    }
+}
