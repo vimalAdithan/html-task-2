@@ -11,14 +11,16 @@
 .contt-1{
     display: block;
 }
-.contt-2{
-    display: none;
+.ratings2{
+    display:none;
 }
-@media screen and (max-width:1000px){
+
+@media screen and (max-width:760px){
     .contt-1{
         display: none;
     }
-    .contt-2{
-        display: block;
+    .ratings2{
+        display: flex;
+        flex-direction: column;
     }
 }
